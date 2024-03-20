@@ -1,0 +1,7 @@
+.logo {
+    display: contents;
+}
+.logo__img img {
+    width: 112px;
+    height: 112px;
+}
