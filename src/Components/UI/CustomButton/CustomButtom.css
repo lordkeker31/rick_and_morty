@@ -1,0 +1,14 @@
+.main_button {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+.main_button.dark {
+    background-color: black;
+    color: white;
+}
+.main_button.dark:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,8 @@
+.main_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 45%;
+    gap: 28px;
+    list-style: none;
+}
