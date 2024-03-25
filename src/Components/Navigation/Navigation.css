@@ -1,8 +1,10 @@
 .main_navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
-    margin-right: 45%;
     gap: 28px;
     list-style: none;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 35%;
 }

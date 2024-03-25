@@ -1,18 +1,12 @@
-//import logo from './logo.svg';
-import logo from './assets/icons/logo.png';
 import './App.css';
+import router from './helpers/router';
+import  { RouterProvider } from "react-router-dom";
+import Container from "./Components/UI/Container/Container";
 import Header from "./Components/Header/Header";
-import CategoryContainer from "./Components/CategoryContainer/CategoryContainer";
-import catigories from "./data/local/catigories";
 
 function App() {
   return (
-      <div className={"container"}>
-          <Header />
-        <main>
-            <CategoryContainer dataArr={catigories}/>
-        </main>
-      </div>
+      <RouterProvider router={router}/>
   );
 }
 

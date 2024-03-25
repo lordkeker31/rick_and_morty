@@ -1,10 +1,9 @@
 import React from "react";
 import './Category.css'
-import charapters from "../../assets/charapters.jpg";
 
 function Category({img, title, description, id}) { //dataArray
     return(
-        <div className="category">
+        <div className="category" id={id}>
             <div className="category__image_container">
                 <img src={img} alt=""/>
             </div>

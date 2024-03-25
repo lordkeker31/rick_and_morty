@@ -10,3 +10,17 @@
     border-bottom: 1px solid #ff0000;
     padding-bottom: 10px;
 }
+/*.main_navigation__link:before {
+    content: "[";
+    transition: margin-right 0.5s;
+}
+.main_navigation__link:hover:before {
+    margin-right: 10px;
+}
+.main_navigation__link:after {
+    content: "]";
+    transition: margin-left 0.5s;
+}
+.main_navigation__link:hover:after {
+    margin-left: 10px;
+}*/
