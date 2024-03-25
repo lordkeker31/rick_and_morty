@@ -7,7 +7,7 @@ function CategoryContainer({dataArr}) {
         <div className="category_container">
             {dataArr.map((el) => {
                 return(
-                    <Category img={el.image} title={el.title} description={el.description} key={el.id} />
+                    <Category img={el.image} title={el.title} description={el.description} key={el.id} href={el.href} />
                 );
             })}
         </div>

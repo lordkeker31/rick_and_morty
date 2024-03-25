@@ -8,19 +8,22 @@ let catigories = [
         id: v4(),
         image: charaptersImage,
         title: "Персонажи",
-        description: "Зайди и познакомься со всеми персонажами вселенной"
+        description: "Зайди и познакомься со всеми персонажами вселенной",
+        href: "/charapters"
     },
     {
         id: v4(),
         image: locationImage,
         title: "Локации",
-        description: "Исследуй все локации. Давай же, не будь занудой!"
+        description: "Исследуй все локации. Давай же, не будь занудой!",
+        href: "/locations"
     },
     {
         id: v4(),
         image: epizodesImage,
         title: "Эпизоды",
-        description: "Узнай чуть больше о карте приключений Рика и Морти"
+        description: "Узнай чуть больше о карте приключений Рика и Морти",
+        href: "/epizodes"
     }
 ]
 

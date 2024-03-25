@@ -2,11 +2,14 @@ import React from "react";
 import './Navigation.css';
 import NavigationElLink from "../NavigationElLink/NavigationElLink";
 
-function Navigation() {
+function Navigation({dataArr}) {
     return(
         <nav className={"main_navigation"}>
-            <NavigationElLink text="Главная" href="#"/>
-            <NavigationElLink text="О проекте" href="#"/>
+            {dataArr.map((el) => {
+                return(
+                    <NavigationElLink text={el.text} href={el.href} key={el.id}/>
+                )
+             })}
         </nav>
     )
 }

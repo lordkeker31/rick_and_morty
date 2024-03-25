@@ -1,4 +1,5 @@
 import React from "react";
+import './HomePage.css';
 import Header from "../../Components/Header/Header";
 import CategoryContainer from "../../Components/CategoryContainer/CategoryContainer";
 import catigories from "../../data/local/catigories";
